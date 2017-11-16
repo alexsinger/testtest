@@ -137,7 +137,8 @@
 				TargetAttributes = {
 					9E5A768E1FBD27C500ADDC42 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 6U4V5EUFFJ;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -353,6 +354,8 @@
 			baseConfigurationReference = EDD7DBDBED18A697C1778337 /* Pods-testtest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 6U4V5EUFFJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -361,6 +364,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.fabric.testtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "447dd9b9-91bc-45c5-9532-72c43f53ffa6";
+				PROVISIONING_PROFILE_SPECIFIER = "io.fabric.testtest AdHoc";
 			};
 			name = Debug;
 		};
@@ -369,6 +374,8 @@
 			baseConfigurationReference = 78783CEBFCDC5557D455BF6D /* Pods-testtest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 6U4V5EUFFJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -377,6 +384,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.fabric.testtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "06c3e44c-06b5-441c-96fb-dfe4bf257260";
+				PROVISIONING_PROFILE_SPECIFIER = "io.fabric.testtest AppStore";
 			};
 			name = Release;
 		};
